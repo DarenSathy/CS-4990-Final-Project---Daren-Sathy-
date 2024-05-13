@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- TextView to display chat messages -->
+    <TextView
+        android:id="@+id/textViewChat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_above="@id/editTextMessage"
+        android:padding="16dp"/>
+
+    <!-- EditText to input messages -->
+    <EditText
+        android:id="@+id/editTextMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:hint="Type a message..."
+        android:inputType="text"
+        android:padding="16dp"/>
+
+</RelativeLayout>
