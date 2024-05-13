@@ -9,7 +9,7 @@ import retrofit2.http.POST;
 public interface OpenAIInterface {
     @Headers({
             "Content-Type: application/json",
-            "Authorization: Bearer sk-proj-is7c2G2sCRddNWtMmWrYT3BlbkFJ0Lp2K7RmElBe56NNkmdt"
+            "Authorization: Bearer sk-proj-6u7QhAusOyhadWsjYz9OT3BlbkFJr7OgtXtUQ0O04olYVdda"
     })
     @POST("https://api.openai.com/v1/chat/completions")
     Call<ResponseBody> getCompletion(@Body AIRequest aiRequest);
