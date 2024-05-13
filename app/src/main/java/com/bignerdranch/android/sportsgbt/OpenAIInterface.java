@@ -5,7 +5,6 @@ import retrofit2.http.Body;
 import retrofit2.http.Headers;
 import retrofit2.http.POST;
 
-// sk-proj-ZBNCuTDy8zskyEJml8rPT3BlbkFJnj4SmhOZzyFLTTXuIDOG
 public interface OpenAIInterface {
     @Headers({
             "Content-Type: application/json",
